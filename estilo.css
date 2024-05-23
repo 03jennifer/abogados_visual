@@ -1,0 +1,430 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  background-image: url(imagenes/abogado.jpg);
+  background-size:cover;
+  scroll-behavior: smooth;
+}
+.contenedor{
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+
+}
+#linea{
+  font-size: 12px;
+ color: #efb810;
+ vertical-align: text-top;
+}
+
+.titulo{
+ background-color: #030B6C;
+ 
+}
+#barriba{
+  font-size: 20px;
+  padding:0px 55px;
+color: #efb810;
+display: inline-block;
+ margin: 5px;
+ border-bottom: 2px #030B6C solid;
+}
+.opciones{
+display: inline-block;
+margin-left: 10px;
+
+}
+
+.opciones a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin:0px 0px 90px 30px;
+ 
+}
+
+.opciones a:hover{
+  border-bottom:4px #efb810 solid;
+}
+
+.pagar{
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin:0px 0px 90px 30px;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+.pagar:hover{
+background-color: #007bffb5;
+border-radius: 10px;
+}
+
+.nuestra{
+margin: 40px 100px;
+background-color: rgba(255, 255, 255, 0.616);
+border:6px #030B6C double;
+padding: 40px;
+border-radius: 60px 20px 5px 90px;
+font-style: oblique;
+}
+.video{
+  margin: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ubicacion{
+  vertical-align: middle;
+  display: inline-block;
+}
+.ubicacion iframe{
+  border-radius: 10px;
+}
+.blanco{
+  text-align: center;
+  width: 300px;
+  height: 250px;
+ font-size: 18px;
+  background-color: #efb810;
+ margin:100px 500px;
+ padding: 40px;
+ font-family: 'Dosis', sans-serif;
+ line-height: 35px;
+ font-family: 24px;
+ border-radius: 60px 20px 5px 90px;
+}
+.blanco input{
+  width: 200px;
+height: 30px;
+padding: 5px;
+border:1px #030c6c00 solid;
+}
+.blanco1{
+  text-align: center;
+  width: 300px;
+  height: 250px;
+ font-size: 18px;
+  background-color: #efb810;
+ margin:100px 500px;
+ padding: 40px;
+ font-family: 'Dosis', sans-serif;
+ line-height: 35px;
+ font-family: 24px;
+ border-radius: 60px 20px 5px 90px;
+}
+.blanco1 input {
+width: 200px;
+height: 30px;
+padding: 5px;
+border:1px #030c6c00 solid;
+}
+button{
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #434caa;
+  color: #ffbf00;
+  font-weight: bold;
+  border:1px #030c6c00 solid; 
+  border-radius: 5px;
+  font-size: 18px;
+}
+button:hover{
+  transition: .5s;
+  background-color: #030B6C;
+  color: #efb810;
+}
+span{
+  color: #efb810;
+  font-style: oblique;
+  text-shadow: #030B6C  1px 1px 1px;
+}
+
+.regresar{
+  float: inline-end;
+  margin: 50px;
+}
+.regresar a{
+  text-decoration: none;
+  border: 1px #6749D7 solid;
+  background-color: #6749D7;
+  padding: 10px;
+  border-radius: 60px 5px 60px 60px;
+  color: #ffbf00;
+}
+.regresar a:hover{
+  transition: .5s;
+  background-color: #030B6C;
+  color: #efb810;
+  border: 1px rgba(255, 0, 0, 0) solid;
+}
+
+h2{
+  color: red;
+  font-style: oblique;
+  background-color: #6749D7;
+}
+table{
+  font-size: 20px;
+margin: 50px 130px;
+width: 1000px;
+background-color: #ffd773cb;
+border-spacing: 30px;
+border:1px #030c6c00 solid;
+border-radius: 30px;
+font-family: 'Dosis', sans-serif;
+}
+table a{
+  text-decoration: none;
+
+}
+table img{
+  border:6px #efb810 double;
+  border-radius: 60px 20px 5px 90px;
+width: 300px;
+height:300px;
+overflow:hidden;
+}
+table img:hover{
+  transition: 1s;
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+.nombres{
+  font-size: 30px;
+  font-weight: bold;
+}
+h3{
+ 
+  padding: 20px;
+  font-family: 'Dosis', sans-serif;
+  margin:20px 200px;
+  border:4px #030B6C solid;
+  border-radius: 30px 2px 30px 2px;
+  text-shadow: rgb(125, 125, 125) 1px 1px 1px;
+
+}
+.elabogado{
+  padding: 20px;
+  font-family: 'Dosis', sans-serif;
+  margin:20px 200px;
+  border:4px #030B6C solid;
+  border-radius: 30px 2px 30px 2px;
+  text-shadow: rgb(112, 112, 112) 1px 1px 1px;
+  background-color: white;
+  color: rgb(213, 0, 0);
+}
+
+textarea{
+width: 400px;
+height: 200px;
+font-family: 'Dosis', sans-serif;
+font-size: 18px;
+padding: 10px;
+}
+.for{
+text-align: center;
+margin: 50px 200px;
+background-color: #bfbf3079;
+border-radius: 1px 40px 1px 40px;
+}
+.for input{
+  font-family: 'Dosis', sans-serif;
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+  font-size: 18px;
+}
+.for1{
+  text-align:justify;
+  margin: 50px 200px;
+  background-color: #bfbf3079;
+  border-radius: 1px 40px 1px 40px;
+  padding: 10px 50px;
+
+}
+.for1 input{
+  font-family: 'Dosis', sans-serif;
+  padding: 5px;
+  width: 300px;
+  margin: 10px;
+  font-size: 18px;
+}
+select{
+  font-family: 'Dosis', sans-serif;
+  padding: 5px;
+  width: 200px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#li2{
+  text-decoration: none;
+  border: 1px #efb810 solid;
+  background-color: #efb810;
+  border-radius: 20px 1px 20px 1px;
+  color: #532ed9;
+  padding: 10px;
+  margin-left: 650px;
+}
+#li2:hover{
+  transition: .5s;
+  background-color: #030B6C;
+  color: #efb810;
+  border: 1px rgba(255, 0, 0, 0) solid;
+  text-decoration: underline;
+}
+
+
+
+#li{
+  text-decoration: none;
+  border: 1px #efb810 solid;
+  background-color: #efb810;
+  padding: 10px;
+  border-radius: 20px 1px 20px 1px;
+  color: #532ed9;
+ margin-left: 950px;
+}
+
+#li:hover{
+  transition: .5s;
+  background-color: #030B6C;
+  color: #efb810;
+  border: 1px rgba(255, 0, 0, 0) solid;
+  text-decoration: underline;
+}
+
+#agenda{
+  background-color: #bfbf3079;
+  margin: 100px 200px;
+  padding: 30px;
+  border: 1px rgba(255, 0, 0, 0) solid;
+  border-radius: 1px 30px 1px 30px;
+
+}
+#barribaA{
+  color: #efb810;
+  background-color: #030B6C;
+  width: 100%;
+}
+#start {
+font-size: 20px;
+}
+.lista{
+  float: left;
+  
+}
+.lista table{
+  width: 400px;
+  font-family: 'Dosis', sans-serif;
+
+  
+}
+.eliminar{
+  
+  text-decoration: none;
+  color: #6c0303;
+  padding: 10px;
+  border-radius: 20px 1px 20px 1px;
+}
+
+.eliminar:hover {
+box-shadow: 2px 2px 1px black;
+
+}
+.lista2{
+  float: right;
+  vertical-align: top;
+ 
+}
+.lista2 table{
+  width: 200px;
+  margin: 40px;
+}
+h1{
+  margin-left: 20px;
+}
+.weather-info {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  color: #333;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+}
+
+.wind-speed {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Estilo para el contenedor del formulario */
+#payment-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff; /* Color de fondo blanco */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los campos de entrada */
+#payment-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffbf00; /* Color dorado */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff9900; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo para el título del formulario */
+h2 {
+  text-align: center;
+  color: #003366; /* Color azul rey */
+}
+
+/* Estilo para el mensaje de error */
+.error-message {
+  color: #ff0000;
+  margin-bottom: 15px;
+}
